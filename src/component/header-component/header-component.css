@@ -2,7 +2,7 @@
     color: white;
     height: 90px;
     width: 100%;
-    background: #25374b;
+    background: #A2C0A0;
     padding: 20px;
     text-align: right;
     }
@@ -19,8 +19,9 @@ img{
 
 #btn-dn
 {
-    border: 1px solid black;
+    color: black;
+    border: 1px solid white;
     border-radius: 50px;
-    background: black;
+    background: white;
     text-transform: capitalize;
 }
