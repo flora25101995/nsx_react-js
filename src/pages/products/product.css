@@ -1,0 +1,8 @@
+.page-home li
+{
+    width: 100%;
+    border: 1px solid;
+    height: 70px;
+    margin: 20px;
+    float: left;
+}

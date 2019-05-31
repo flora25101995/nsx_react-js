@@ -12,9 +12,9 @@ function App() {
       <div className="App">
       <HeaderComp></HeaderComp>
       <MainRouter></MainRouter>
-        {/* <div>
+        <div>
           <BodyComp></BodyComp>
-        </div> */}
+        </div>
       <FooterComp></FooterComp>
       </div>
     </div>
