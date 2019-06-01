@@ -1,8 +1,12 @@
 .page-home li
 {
-    width: 100%;
+    width: 30%;
     border: 1px solid;
     height: 70px;
-    margin: 20px;
+    margin: 15px;
     float: left;
+}
+
+.page-home ul {
+    list-style: none;
 }

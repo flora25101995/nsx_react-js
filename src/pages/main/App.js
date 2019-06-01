@@ -10,12 +10,12 @@ function App() {
   return (
     <div>
       <div className="App">
-      <HeaderComp></HeaderComp>
-      <MainRouter></MainRouter>
-        <div>
-          <BodyComp></BodyComp>
+        <HeaderComp></HeaderComp>
+        {/* <BodyComp></BodyComp> */}
+        <div className='abc'>
+          <MainRouter></MainRouter>
         </div>
-      <FooterComp></FooterComp>
+        <FooterComp></FooterComp>
       </div>
     </div>
   );

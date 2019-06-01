@@ -1,13 +1,12 @@
-footer {
+.main-footer {
     color: white;
     height: 200px;
     width: 100%;
     background: black;
     padding: 20px;
     position: relative;
-    bottom: 0;
-    }
+}
 
-h1{
+.main-footer h1 {
     margin: auto;
 }

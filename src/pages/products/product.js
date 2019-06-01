@@ -45,6 +45,12 @@ class ProductPage extends React.Component {
                 {
                     name: 'Do'
                 },
+                {
+                    name: 'Do'
+                },
+                {
+                    name: 'Do'
+                },
             ]
         }
     }

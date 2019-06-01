@@ -5,19 +5,16 @@
     background: #A2C0A0;
     padding: 20px;
     text-align: right;
-    }
-ul li
+    position: relative;
+}
+.main-header ul li
 {
     display: inline;
     padding: 20px;
     text-transform: uppercase;
 }
-img{
-    width: 100%;
-    height: 950px;
-}
 
-#btn-dn
+.main-header #btn-dn
 {
     padding: 10px;
     color: black;
@@ -27,7 +24,7 @@ img{
     text-transform: capitalize;
 }
 
-#btn-dn:hover
+.main-header #btn-dn:hover
 {
     background: #81A190;
     border: 1px solid #81A190;
