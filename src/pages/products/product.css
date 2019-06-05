@@ -1,12 +1,19 @@
 .page-home li
 {
-    width: 30%;
-    border: 1px solid;
-    height: 70px;
-    margin: 15px;
+    /* width: 30%; */
+    /* border: 1px solid; */
+    /* height: 70px; */
+    padding: 30px;
+    margin: auto;
     float: left;
 }
 
 .page-home ul {
     list-style: none;
+}
+
+Card.Img{
+    height: 6rem;
+    width: 18rem;
+    background: rgb(136, 115, 145);
 }

@@ -29,3 +29,11 @@
     background: #81A190;
     border: 1px solid #81A190;
 }
+
+Nav.Link{
+    color: white;
+}
+
+Nav.Link:hover{
+    color: black;
+}
