@@ -1,11 +1,11 @@
 import React from 'react';
-import './home.css'
+import './new.css'
 import slide1 from '../../assets/images/slide1.jpg'
 import slide2 from '../../assets/images/slide2.jpg'
 import slide3 from '../../assets/images/slide3.jpg'
 import {Carousel} from "react-bootstrap"
 
-class HomePage extends React.Component{
+class NewPage extends React.Component{
     render () {
         return (
             <React.Fragment>
@@ -53,4 +53,4 @@ class HomePage extends React.Component{
     }
 }
 
-export default HomePage
+export default NewPage

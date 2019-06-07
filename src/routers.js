@@ -5,6 +5,8 @@ import ProductPage from './pages/products/product'
 import FarmPage from './pages/farms/farm'
 import LoginPage from './pages/login/login'
 import Auth from './component/auth/auth-component';
+import NewPage from './pages/news/new';
+import ContactPage from './pages/contact/contact';
 
 const MainRouter = () => (
     <main>
@@ -17,10 +19,12 @@ const MainRouter = () => (
                     }></Auth>
                 )
             }></Route>
-
+            {/* <Route path='/' component={HomePage}></Route> */}
             <Route path='/products' component={ProductPage}></Route>
             <Route path='/farms' component={FarmPage}></Route>
             <Route path='/login' component={LoginPage}></Route>
+            <Route path='/news' component={NewPage}></Route>
+            <Route path='/contact' component={ContactPage}></Route>
         </Switch>
     </main>
 )

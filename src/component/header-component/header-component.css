@@ -30,10 +30,10 @@
     border: 1px solid #81A190;
 }
 
-Nav.Link{
-    color: white;
+.main-header .navitem{
+    color: black !important;
 }
 
-Nav.Link:hover{
-    color: black;
+.main-header .navitem:hover{
+    color: rgb(87, 145, 107);
 }
