@@ -2,6 +2,7 @@ import React from 'react';
 import './product.css'
 import {Button, Card, Image} from "react-bootstrap"
 import Cookies from "universal-cookie";
+import fruite from '../../assets/images/fruite.jpg'
 
 class ProductPage extends React.Component {
     constructor () {
@@ -71,7 +72,7 @@ class ProductPage extends React.Component {
                                 return (
                                     <li>
                                         <Card style={{ width: '18rem' }}>
-                                            <Card.Img variant="top" src="holder.js/100px250" fluid />
+                                            <Card.Img variant="top" src={fruite} fluid />
                                             <Card.Body>
                                                 <Card.Title>{item.name}</Card.Title>
                                                 <Card.Text>
