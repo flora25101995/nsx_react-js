@@ -1,0 +1,25 @@
+{
+  "name": "nsx_react-js",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd api && npm start",
+    "client": "cd client && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flora25101995/nsx_react-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flora25101995/nsx_react-js/issues"
+  },
+  "homepage": "https://github.com/flora25101995/nsx_react-js#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
